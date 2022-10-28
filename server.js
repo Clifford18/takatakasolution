@@ -3,7 +3,7 @@ dotenv.config({ path: "./.env" });
 
 const app = require("./app");
 // const mongoose = require("mongoose");
-const startElarian = require("./controllers/connectionController");
+const startElarian = require("./connectionController");
 
 process.on("uncaughtException", (err) => {
   console.log("Unexpected exception 🔥 shutting down ....");

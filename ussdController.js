@@ -1,6 +1,6 @@
 const log = require("signale");
 const config = require("config");
-const User = require("../models/userModel");
+const User = require("./userModel");
 
 const getNextScreen = (nextScreen, input) => {
   switch (nextScreen) {

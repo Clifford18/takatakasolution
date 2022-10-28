@@ -1,4 +1,4 @@
-const client = require("../utils/client");
+const client = require("./client");
 const ussdController = require("./ussdController");
 const log = require("signale");
 
